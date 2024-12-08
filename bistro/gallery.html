@@ -6,25 +6,74 @@
 <title>Black Goose Bistro</title>
 <style>
 body {
-background-color: #faf2e4;
-margin: 0 10%;
-font-family: sans-serif;
-}
-
-h1 {
-text-align: center;
-font-family: serif;
-font-weight: normal;
-text-transform: uppercase;
-border-bottom: 1px solid #57b1dc;
-margin-top: 30px;
-}
-
-h2 {
-color: #d1633c;
-font-size: 1em;
-}
-
+@charset "UTF-8";
+        body {font-family: Georgia, serif;
+        font-size: 100%;
+        line-height: 175%;
+        background-color: #7d4b00a4;
+        margin: 0 15%;
+        /* background-image: url(bullseye.png); */
+        background-image: url(blackgoose2.png);
+        background-repeat: no-repeat;
+        background-position: center 100px;
+        background-attachment: fixed;
+    }
+        h1 {font: bold 1.5em "Marko One", Georgia, serif;
+        color: #583000c5;
+        text-shadow: .05em .05em .1em rgb(46, 20, 0);
+    }
+        h2 {font-size: 1em;
+        text-transform: uppercase;
+        letter-spacing: .5em;
+        color: #51290062;
+    }
+        b {font-size: 1em;}
+        dt {font-weight: bold;
+            color: rgb(0, 0, 0);
+        }
+        strong {font-style: italic;}
+        dt strong {color: rgb(0, 0, 0);}
+        #info {color: rgb(128, 98, 0);}
+        #info p {font-style: italic;
+        color: rgb(128, 98, 0);}
+        .price {
+            font-family: Georgia, serif;
+            font-style: italic;
+            color: rgb(128, 98, 0);
+        }
+        .label {
+            font-weight: bold;
+            font-variant: small-caps;
+            font-style: normal;
+        }
+        .warning {
+            font-size: small;
+            color: rgb(0, 0, 0);
+        }
+        h1, h2, #info {
+            text-align: center;
+        }
+        h2 + p {
+            text-align: center;
+        }
+        header {
+            margin-top: 0;
+            padding: 3em 1em 2em 1em;
+            text-align: center;
+            background-color: rgba(254, 213, 117, 0.447);   
+        }
+        a:link {
+	        color: rgb(90, 55, 18);
+        }
+        a:visited {
+	        color: #816954;
+        }
+        a {
+            text-decoration: none;
+        }
+	nav {
+		text-align: center;
+	}
 </style>
 </head>
 
