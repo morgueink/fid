@@ -2,23 +2,22 @@
         body {font-family: Georgia, serif;
         font-size: 100%;
         line-height: 175%;
-        background-color: #d2dc9d;
+        background-color: #7d4b00a4;
         margin: 0 15%;
-         /* background-image: url(images/bullseye.png);
-  background-position: center 200px; */
-  background-image: url(images/blackgoose2.png);
-  background-repeat: no-repeat;
-  background-position: center 100px;
-  background-attachment: fixed;
+        /* background-image: url(bullseye.png); */
+        background-image: url(blackgoose2.png);
+        background-repeat: no-repeat;
+        background-position: center 100px;
+        background-attachment: fixed;
     }
         h1 {font: bold 1.5em "Marko One", Georgia, serif;
-        color: #993399;
-        text-shadow: .05em .05em .1em lightslategray;
+        color: #583000c5;
+        text-shadow: .05em .05em .1em rgb(46, 20, 0);
     }
         h2 {font-size: 1em;
         text-transform: uppercase;
         letter-spacing: .5em;
-        color: #cc6600;
+        color: #9148004f;
     }
         b {font-size: 1em;}
         dt {font-weight: bold;
@@ -26,13 +25,13 @@
         }
         strong {font-style: italic;}
         dt strong {color: rgb(0, 0, 0);}
-        #info {color: teal;}
+        #info {color: rgb(128, 98, 0);}
         #info p {font-style: italic;
-        color: gray;}
+        color: rgb(128, 98, 0);}
         .price {
             font-family: Georgia, serif;
             font-style: italic;
-            color: gray;
+            color: rgb(128, 98, 0);
         }
         .label {
             font-weight: bold;
@@ -57,16 +56,15 @@
             url(purpledot.png) left top repeat-y,
             url(purpledot.png) right top repeat-y,
             url(gooseshadow.png) 90% bottom no-repeat;
-            background-color: rgba(255,255,255, .5);   
+            background-color: rgba(255, 179, 0, 0.393);   
         }
         a:link {
-	        color: #939;
+	        color: rgb(153, 102, 51);
         }
         a:visited {
-	        color: #937393;
+	        color: #bc946f;
         }
         a {
             text-decoration: none;
         }
-  
 
