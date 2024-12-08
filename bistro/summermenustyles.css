@@ -53,8 +53,6 @@
             padding: 3em 1em 2em 1em;
             text-align: center;
             background: 
-            url(browndiamond.png) left top repeat-y,
-            url(browndiamond.png) right top repeat-y,
             url(gooseshadow.png) 90% bottom no-repeat;
             background-color: rgba(254, 213, 117, 0.447);   
         }
