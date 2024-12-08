@@ -4,7 +4,7 @@
         line-height: 175%;
         background-color: #7d4b00a4;
         margin: 0 15%;
-        /* background-image: url(bullseye.png); */
+        background-image: url(bullseye.png); 
         background-image: url(blackgoose2.png);
         background-repeat: no-repeat;
         background-position: center 100px;
@@ -53,8 +53,8 @@
             padding: 3em 1em 2em 1em;
             text-align: center;
             background: 
-            url(purpledot.png) left top repeat-y,
-            url(purpledot.png) right top repeat-y,
+            url(brown diamond.webp) left top repeat-y,
+            url(brown diamond.webp) right top repeat-y,
             url(gooseshadow.png) 90% bottom no-repeat;
             background-color: rgba(254, 213, 117, 0.447);   
         }
