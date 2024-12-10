@@ -1,0 +1,12 @@
+@charset "UTF-8";
+body { margin: 2em 5%;   font-family: Georgia, 'Times New Roman', Times, serif;
+     background-color: rgba(188, 214, 203, 0.447);}
+h1, h2  { color: #399;}h1 {font-size: 1.5em;}
+h2  {font-family: Verdana, Geneva, sans-serif;  font-size: 1em;}
+small {color:#999}
+    a:link {
+	        color: rgba(89, 108, 100, 0.447);
+        }
+        a:visited {
+	        color: rgba(126, 153, 142, 0.447);
+        }
