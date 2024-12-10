@@ -52,8 +52,13 @@
             margin-top: 0;
             padding: 3em 1em 2em 1em;
             text-align: center;
-            background-color: rgba(254, 213, 117, 0.447);   
+            background-color: rgba(254, 213, 117, 0.447);
         }
+            footer {
+                border-top: 1px solid #583000c5;
+                text-align: center;
+                padding-top: 1em;
+          } 
         a:link {
 	        color: rgb(90, 55, 18);
         }
