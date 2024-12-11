@@ -1,0 +1,161 @@
+@charset "UTF-8";
+body {
+    background-color: rgb(47, 47, 47);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, serif;
+    font-size: 100%;
+    line-height: 175%;
+    margin: 0 15%;
+     background-image: url(morguelogo.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+        background-size: 3000px;
+        
+}
+h1 {
+  font-family: "UnifrakturMaguntia", cursive;
+  font-weight: 400;
+  color: #8e8e8e;
+  font-size: 2em;
+  font-style: normal;
+   text-align: center;
+   text-shadow:.05em .05em .05em rgb(0, 0, 0);
+}
+h2 {
+    font-family: "UnifrakturMaguntia";
+    font-size: 1.5em;
+    color: rgb(46, 46, 46);
+        letter-spacing: .5em;
+        padding: 1em .5em 1em .5em;
+
+        background-color: #8a8a8a;
+            opacity: 70%;
+    }
+        b {font-size: 1em;}
+        dt {font-weight: bold;
+            color: rgb(0, 0, 0);
+        }
+        strong {font-style: italic;}
+        dt strong {color: rgb(0, 0, 0);}
+        #info {color: rgb(0, 0, 0);}
+        #info p {font-style: italic;
+        color: rgb(0, 0, 0);}
+        .price {
+            font-family: Georgia, serif;
+            font-style: italic;
+            color: rgb(0, 0, 0);
+        }
+        .label {
+            font-weight: bold;
+            font-variant: small-caps;
+            font-style: normal;
+        }
+        .important {
+            font-size: small;
+            color: rgb(101, 101, 101);
+            border-bottom: #000000;
+        }
+        .slider-container {
+            width: 100%;
+            max-width: 800px;
+            margin: 50px auto;
+            overflow: hidden;
+            position: relative;
+            border: 2px solid #ddd;
+            border-radius: 10px;
+        }
+        .slider-images {
+            display: flex;
+            transition: transform 0.5s ease-in-out;
+        }
+        .slider-images img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        .prev, .next {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            background-color: rgba(0, 0, 0, 0.5);
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        .prev {
+            left: 10px;
+        }
+        .next {
+            right: 10px;
+        }
+        h1, h2, #info {
+            text-align: center;
+        }
+        h2 + p {
+            text-align: center;
+        }
+        header {
+            margin-top: 0;
+            text-align: center;
+            padding: 14em 1em 2em 1em;
+            color: #000000;
+            border-bottom: #000000;
+            background:
+            url(MorgueInks.png) 50% center no-repeat;
+            background-color: #3a3a3a;
+            opacity: 80%;
+        }
+        footer {
+            border-top: 2px solid #171717c5;
+            text-align: center;
+            padding-top: 1em;
+        }
+        a:link {
+	        color: rgb(0, 0, 0);
+            text-shadow: .05em .05em .05em #c5c5c5;
+            text-decoration: underline;
+        }
+        a:visited {
+	        color: #272727;
+        }
+        a {
+            text-decoration: none;
+            text-align: center;
+            color: rgb(101, 101, 101);
+        }
+	nav {
+		text-align: center;
+        color: rgb(101, 101, 101);
+	}
+    img {
+        align-items: center;
+    }
+    p {
+        text-align: center;
+        color: rgb(101, 101, 101);
+        text-shadow:.05em .05em .05em rgb(0, 0, 0);
+    }
+    fieldset {
+        align-content: center;
+        text-align: center;
+    }
+    textarea {
+        text-align: center;
+    }
+    label {
+        text-align: center;
+        color: rgb(101, 101, 101);
+    }
+    td, th {
+        border: 2px solid rgb(139, 135, 135);
+        text-align: center;
+        color: rgb(101, 101, 101);
+    }
+    .center {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    li {
+        text-align: center;
+    }

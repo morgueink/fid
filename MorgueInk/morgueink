@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title>Morgue Inks</title>
+<style>
+body {
+    background-color: rgb(58, 58, 58);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, serif;
+    font-size: 100%;
+    line-height: 175%;
+     margin: 0 15%;
+}
